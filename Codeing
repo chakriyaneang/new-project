@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{box-sizing: border-box;}
+        .gallery-container{
+            width: 1050px;
+            margin: auto;
+            background-color: lightblue;
+        }
+        .gallery-item{
+            width: 200px;
+            float: left;
+            margin: 5px;
+        }
+        .gallery-item p {
+            text-align: center;
+        }
+        /* media query for ipad */
+        @media screen and (max-width:768px) {
+            .gallery-container {
+                background-color: green;
+                width: 100%;
+            }
+        }
+
+        /* media query for iphone */
+        @media screen and (max-width:500px) {
+            .gallery-container {
+                background-color: blue;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <a href="">
+                <img src="https://dummyimage.com/200x200" alt="">
+            </a>
+            <p>Product 1</p>
+        </div>
+        <div class="gallery-item">
+            <a href="">
+                <img src="https://dummyimage.com/200x200" alt="">
+            </a>
+            <p>Product 1</p>
+        </div>
+        <div class="gallery-item">
+            <a href="">
+                <img src="https://dummyimage.com/200x200" alt="">
+            </a>
+            <p>Product 1</p>
+        </div>
+        <div class="gallery-item">
+            <a href="">
+                <img src="https://dummyimage.com/200x200" alt="">
+            </a>
+            <p>Product 1</p>
+        </div>
+        <div class="gallery-item">
+            <a href="">
+                <img src="https://dummyimage.com/200x200" alt="">
+            </a>
+            <p>Product 1</p>
+        </div>
+        <div class="gallery-item">
+            <a href="">
+                <img src="https://dummyimage.com/200x200" alt="">
+            </a>
+            <p>Product 1</p>
+        </div>
+        <div class="gallery-item">
+            <a href="">
+                <img src="https://dummyimage.com/200x200" alt="">
+            </a>
+            <p>Product 1</p>
+        </div>
+        <div class="gallery-item">
+            <a href="">
+                <img src="https://dummyimage.com/200x200" alt="">
+            </a>
+            <p>Product 1</p>
+        </div>
+    </div>
+</body>
+</html>
